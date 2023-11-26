@@ -11,35 +11,9 @@
 
 ## Overview
 
-### Requirements and options
-
-# Style Guide
-
-## Main Colors:
-
-From Website Logo:
-Red: c4202f;
-Yellow: #ffc700;
-
-Red: #911300
-
-Sun Gradiant
-Lite-Yellow: #fefaa4;
-Yellow-Orange: #e67706;
-
-COLOR PALETTE IDEA:
-
-Generic Gradient based on red from logo with Yellow Accent
-Red: #911300
-  #910239
-  #79265F
-  #533B6F
-  #33456A
-  #2F4858
-Lite-Yellow: #fefaa4;
-
 https://www.facebook.com/PalmDesertHS
 https://twitter.com/pdhsofficial
+https://www.facebook.com/PDHSAlumni
 
 PDH AztecTV
 https://www.youtube.com/channel/UC3pqd8qKfekZnsQeojD6CfA/videos
@@ -48,6 +22,16 @@ https://www.youtube.com/channel/UC3pqd8qKfekZnsQeojD6CfA/videos
 
     Polls & Quizzes
     Adding a polls and quizzes section to your high school reunion website is one hack in knowing your audience. It is an effective step in knowing what they think about the reunion you are planning. In this section, you can post polls about the venue that they would like to go to, the type of food they prefer, the reunion theme, the full schedule of the event, and other ideas that can help you achieve the best program.
+
+    Biographical 
+    These questions allow you to have current contact information for every classmate, which can make reunion planning easier. Ask for students' full names, including maiden names for women, as well as their current address. Ask students for their occupation, children's names and ages and spouse's name as well. These questions will give you a better sense of your classmates today, not the ones you knew years ago.
+
+    General Reunion
+    list of events, such as a formal dinner, cocktail party, family picnic and high school football game, and ask your classmates to rank them in the order that they would attend these events. Also, create a multiple-choice question asking your classmates how much they are willing to spend on the reunion. Responses to these questions can make your planning much easier.
+
+    final section of your class reunion questionnaire asks your classmates to look back on their high school years. Questions like "What was your favorite high school song?", "How many miles will you travel for the reunion?" and "What is your best high school memory?" can help guide your reunion planning. You can make sure the DJ plays the songs that students remember, acknowledge the classmate who traveled the farthest and display favorite memories
+
+
 
     Questions to ask (Multiple choice answers only) are:
 

@@ -5,18 +5,419 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image" href="./assets/images/Palm Desert Aztecs Logo.png" />
     <title>Reunion Landing Page</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/bootstrap-5.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <style>
-      body {
-        background: linear-gradient(217deg, rgba(145, 19, 0, .8), rgba(145, 2, 57, .2) 70.71%),
-                  linear-gradient(127deg, rgba(121, 38, 95, .8), rgba(83, 59, 111, .2) 70.71%),
-                  linear-gradient(336deg, rgba(51, 69, 106, .8), rgba(47, 72, 88, .2) 70.71%);
+      :root {
+        --my-Yellow-Orange: #e67706;
+        --my-Red: #911300;
+        --my-a: #79265F;
+        --my-b: #533B6F;
+        --my-c: #33456A;
+        --my-d: #2F4858;
+        --my-Lite-Yellow: #fefaa4; 
       }
     </style>
   </head>
   <body>
-    <div style="display: flex; justify-content: center; align-items: center; padding-top: 10%; padding-bottom: 20%;">
-      <img src="./images/pd-logo-with-class-reunion-logo.png" alt="" style="max-width: 400px;">
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
+      <div class="container-fluid">
+        <img src="./assets/images/Palm Desert Aztecs Logo.png" alt="Palm Desert Aztecs" style="width: 60px; height: auto;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">Event Agenda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Entertainment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">FAQ</a>
+            </li>
+          </ul>
+          <a class="text-light d-md-none d-lg-inline" href="#">2003 Reunion</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div id="myCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel-bg-00">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>2003 Palm Desert Class Reunion!</h1>
+                <p>It's that time of decade!</p>
+                <p><a class="btn btn-lg" style="background-color: #911300; color: white;" href="#">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-bg-01">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Event Calendar</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, fugit?</p>
+                <p><a class="btn btn-lg" style="background-color: #33456A; color: white;" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-bg-02">
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>FAQ</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nobis.</p>
+                <p><a class="btn btn-lg" style="background-color: #533B6F; color: white;" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container marketing pt-5">
+        <div class="row pt-5">
+          <div class="col-lg-4">
+            <img src="./assets/images/weNeedYourHelp.jpg" alt="We Need Your Help" style="width: 180px;">
+            <h2 class="fw-normal">Volunteer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore dolor explicabo sapiente, sequi repellendus nostrum blanditiis expedita itaque asperiores cupiditate?</p>
+            <p><a class="btn btn-outline-dark" href="#">View details &raquo;</a></p>
+          </div>
+          <div class="col-lg-4">
+            <img src="./assets/images/pd-logo-with-class-reunion-logo.png" alt="Class Reunion" style="width: 180px;">
+            <h2 class="fw-normal">RSVP</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore dolor explicabo sapiente, sequi repellendus nostrum blanditiis expedita itaque asperiores cupiditate?</p>
+            <p><a class="btn btn-outline-dark" href="#">View details &raquo;</a></p>
+          </div>
+          <div class="col-lg-4">
+            <img src="./assets/images/yearbook_glitch.jpg" alt="Photo Gallery" style="width: 145px;">
+            <h2 class="fw-normal">Yearbook Gallery</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore dolor explicabo sapiente, sequi repellendus nostrum blanditiis expedita itaque asperiores cupiditate?</p>
+            <p><a class="btn btn-outline-dark" href="#">View details &raquo;</a></p>
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Event Schedule</h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatem maxime non natus dicta enim repellat, doloribus laudantium modi a.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="./assets/images/comingSoon.jpg" alt="">
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+          <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">March Day One</h1>
+            <p class="col-md-8 fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis repellendus sit deserunt voluptatem maiores amet tenetur natus nesciunt quos corporis!</p>
+          </div>
+          <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">March Day Two</h1>
+            <p class="col-md-8 fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque recusandae velit assumenda nulla mollitia, magni at est amet expedita alias.</p>
+          </div>
+          <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">March Day Three</h1>
+            <p class="col-md-8 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, rem alias earum quam nulla consequatur cupiditate excepturi nesciunt vitae quod.</p>
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">You can help by volunteering your time! <span class="text-body-secondary">Sign-up for updates</span></h2>
+            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+            <p><a class="btn btn-outline-dark" href="#">Volunteer &raquo;</a></p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="./assets/images/volunteer.jpg" alt="volunteer" style="max-width: 300px;">
+          </div>
+        </div>
+        <hr class="featurette-divider">
+      </div>
+      <div class="container px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2 border-bottom">Possible Events</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <img src="./assets/images/Palm Desert Aztecs Logo.png" alt="" style="width: 40px;">
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Featured Event</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed laudantium delectus non commodi tempore voluptate saepe rem labore error nulla sint!</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <img src="./assets/images/Palm Desert Aztecs Logo.png" alt="" style="width: 40px;">
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Featured Event</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam delectus modi expedita ipsum perspiciatis, tenetur impedit quaerat incidunt. Deserunt, quasi?</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <img src="./assets/images/Palm Desert Aztecs Logo.png" alt="" style="width: 40px;">
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Featured Event</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea molestiae possimus necessitatibus, nesciunt minus nam nisi voluptas enim facere sapiente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="gallery">
+        <div><img src="./assets/images/aztecPride.jpg" /><a href="#lightbox-1">Submit Name</a></div>
+        <div><img src="./assets/images/palmDesertCity.png" /><a href="#lightbox-2">Submit Name</a></div>
+        <div><img src="./assets/images/pdhs2.jpg" /><a href="#lightbox-3">Submit Name</a></div>
+        <div><img src="./assets/images/yearbook_glitch.jpg" /><a href="#lightbox-4">Submit Name</a></div>
+        <div><img src="./assets/images/pdhs4.jpg" /><a href="#lightbox-5">Submit Name</a></div>
+        <div><img src="./assets/images/pdhs6.jpg" /><a href="#lightbox-6">Submit Name</a></div>
+        <div><img src="./assets/images/palmDesertHighSchool.jpg" /><a href="#lightbox-7">Submit Name</a></div>
+        <div><img src="./assets/images/PDHS.jpg" /><a href="#lightbox-8">Submit Name</a></div>
+        <div><img src="./assets/images/pdhs5.jpg" /><a href="#lightbox-9">Submit Name</a></div>
+        <div><img src="./assets/images/pdhs7.jpg" /><a href="#lightbox-10">Submit Name</a></div>
+        <div><img src="./assets/images/pdhs8.jpg" /><a href="#lightbox-11">Submit Name</a></div>
+        <div><img src="./assets/images/pdhs9.jpg" /><a href="#lightbox-12">Submit Name</a></div>
+        <div><img src="./assets/images/pdhs10.jpg" /><a href="#lightbox-13">Submit Name</a></div>
+        <div><img src="./assets/images/pdhs11.jpg" /><a href="#lightbox-14">Submit Name</a></div>
+        <div><img src="./assets/images/pdhs12.jpg" /><a href="#lightbox-15">Submit Name</a></div>
+        <div><img src="./assets/images/pdhs13.jpg" /><a href="#lightbox-16">Submit Name</a></div>
+        <div><img src="./assets/images/pdhs14.jpg" /><a href="#lightbox-17">Submit Name</a></div>
+        <div><img src="./assets/images/pdhs15.jpg" /><a href="#lightbox-18">Submit Name</a></div>
+      </div>
+      <div class="lightbox" id="lightbox-1">
+        <div class="content"><img src="./assets/images/aztecPride.jpg" />
+          <div class="title">No. <b>001</b> from Submit Name</div><a class="close" href="#gallery"></a>
+        </div>
+      </div>
+      <div class="lightbox" id="lightbox-2">
+        <div class="content"><img src="./assets/images/palmDesertCity.png" />
+          <div class="title">No. <b>002</b> from Submit Name</div><a class="close" href="#gallery"></a>
+        </div>
+      </div>
+      <div class="lightbox" id="lightbox-3">
+          <div class="content"><img src="https://picsum.photos/1920/1080/?image=514" />
+              <div class="title">No. <b>003</b> from Submit Name</div><a class="close" href="#gallery"></a>
+            </div>
+      </div>
+      <div class="lightbox" id="lightbox-4">
+          <div class="content"><img src="./assets/images/yearbook_glitch.jpg" />
+              <div class="title">No. <b>004</b> from Submit Name</div><a class="close" href="#gallery"></a>
+            </div>
+      </div>
+      <div class="lightbox" id="lightbox-5">
+          <div class="content"><img src="https://picsum.photos/1920/1080/?image=516" />
+              <div class="title">No. <b>005</b> from Submit Name</div><a class="close" href="#gallery"></a>
+            </div>
+      </div>
+      <div class="lightbox" id="lightbox-6">
+          <div class="content"><img src="https://picsum.photos/1920/1080/?image=517" />
+              <div class="title">No. <b>006</b> from Submit Name</div><a class="close" href="#gallery"></a>
+            </div>
+      </div>
+      <div class="lightbox" id="lightbox-7">
+          <div class="content"><img src="./assets/images/palmDesertHighSchool.jpg" />
+              <div class="title">No. <b>007</b> from Submit Name</div><a class="close" href="#gallery"></a>
+            </div>
+      </div>
+      <div class="lightbox" id="lightbox-8">
+          <div class="content"><img src="https://picsum.photos/1920/1080/?image=519" />
+              <div class="title">No. <b>008</b> from Submit Name</div><a class="close" href="#gallery"></a>
+            </div>
+      </div>
+      <div class="lightbox" id="lightbox-9">
+          <div class="content"><img src="https://picsum.photos/1920/1080/?image=520" />
+              <div class="title">No. <b>009</b> from Submit Name</div><a class="close" href="#gallery"></a>
+            </div>
+      </div>
+      <div class="lightbox" id="lightbox-10">
+          <div class="content"><img src="https://picsum.photos/1920/1080/?image=521" />
+              <div class="title">No. <b>010</b> from Submit Name</div><a class="close" href="#gallery"></a>
+            </div>
+      </div>
+      <div class="lightbox" id="lightbox-11">
+        <div class="content"><img src="https://picsum.photos/1920/1080/?image=522" />
+          <div class="title">No. <b>011</b> from Submit Name</div><a class="close" href="#gallery"></a>
+        </div>
+      </div>
+      <div class="lightbox" id="lightbox-12">
+          <div class="content"><img src="https://picsum.photos/1920/1080/?image=523" />
+              <div class="title">No. <b>012</b> from Submit Name</div><a class="close" href="#gallery"></a>
+            </div>
+      </div>
+      <div class="lightbox" id="lightbox-13">
+          <div class="content"><img src="https://picsum.photos/1920/1080/?image=524" />
+              <div class="title">No. <b>013</b> from Submit Name</div><a class="close" href="#gallery"></a>
+            </div>
+      </div>
+      <div class="lightbox" id="lightbox-14">
+          <div class="content"><img src="https://picsum.photos/1920/1080/?image=525" />
+              <div class="title">No. <b>014</b> from Submit Name</div><a class="close" href="#gallery"></a>
+            </div>
+      </div>
+      <div class="lightbox" id="lightbox-15">
+          <div class="content"><img src="https://picsum.photos/1920/1080/?image=526" />
+              <div class="title">No. <b>015</b> from Submit Name</div><a class="close" href="#gallery"></a>
+            </div>
+      </div>
+      <div class="lightbox" id="lightbox-16">
+        <div class="content"><img src="https://picsum.photos/1920/1080/?image=527" />
+          <div class="title">No. <b>016</b> from Submit Name</div><a class="close" href="#gallery"></a>
+        </div>
+      </div>
+      <div class="lightbox" id="lightbox-17">
+        <div class="content"><img src="https://picsum.photos/1920/1080/?image=528" />
+          <div class="title">No. <b>528</b> from Submit Name</div><a class="close" href="#gallery"></a>
+        </div>
+      </div>
+      <div class="lightbox" id="lightbox-18">
+        <div class="content"><img src="https://picsum.photos/1920/1080/?image=529" />
+          <div class="title">No. <b>017</b> from Submit Name</div><a class="close" href="#gallery"></a>
+        </div>
+      </div>
+      <div style="background-color: #cacaca; border-radius: 10px; margin-top: 20px;">
+        <h2 class="featurette-heading fw-normal lh-1 text-center">What to add your memory? <span class="text-body-secondary">Submit here.</span></h2>
+        <div class="row container pt-5 w-25 m-auto gallery-submit">
+          <div class="w-100">
+            <form class="row gy-2 gx-3 align-items-center">
+              <div class="container">
+                <div class="col-auto">
+                  <label class="visually-hidden" for="autoSizingInput">Name</label>
+                  <input type="text" class="form-control" id="autoSizingInput" placeholder="Name"><br />
+                  <textarea class="mb-3 messageInput formInput" cols="30" name="message" placeholder="Message" required="" rows="4"></textarea><br />
+                </div>
+                <label for="img">Select image:</label>
+                <input type="file" id="img" name="img" accept="image/*">
+                <div class="col-auto pb-2 pt-2">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container px-4 py-5 w-50 m-auto">
+        <h2 class="fw-bold text-body-emphasis">Frequently Asked Questions</h2>
+        <p class="text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio quia optio tempora minus similique quibusdam fuga reprehenderit molestias modi?</p>
+      </div>
+      <div class="accordion accordion-flush w-50 m-auto" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+               Where can I stay?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim pariatur odit nam ea possimus nulla unde nihil cupiditate officia ad.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Where should I go if I need assistance?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatibus autem quia similique voluptates nisi aut molestias quaerat a quas?</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              How can I contribute to my class gift?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus doloribus neque harum ipsa accusantium, quam nam a similique provident totam!</div>
+          </div>
+        </div>
+        <a href="#" class="btn btn-outline-dark btn-lg mt-4 mb-5">View Full FAQ List</a>
+      </div>
+
+      <div class="container rep-gallery py-5">
+        <div class="row">
+          <div class="col">
+            <img src="./assets/images/pdhs-foundation.png" alt="" style="width: 140px; margin-bottom: -80px; padding-left: 20px;">
+          </div>
+          <div class="col">
+            <img src="./assets/images/pd-aztecs.png" alt="" style="width: 140px; padding-left: 20px;">
+          </div>
+          <div class="col">
+            <img src="./assets/images/foreverAztecs.jpg" alt="" style="width: 140px; padding-left: 20px;">
+          </div>
+          <div class="col">
+            <img src="./assets/images/Football-Logo.png" alt="" style="width: 140px;">
+          </div>
+        </div>
+      </div>
+      <hr style="color: #33456A;">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Navigation</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gallery</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Event Agenda</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+              <img src="./assets/images/class-reunion-stamp.jpg" alt="" width="140px;">
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+            </div>
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <section id="contact">
+                  <h2>Sign up for our Newsletter!</h2>
+                  <form action="../assets/php/contact.php" id="formSubmit" method="post" name="contact_form"><input name="name" placeholder="yourName" required="" type="text" />
+                    <br />
+                    <input name="email" pattern="(.+)@(.+){1,}\.(.+){2,}" placeholder="yourEmail@mail.com" required="" type="text" /><br />
+                    <textarea class="mb-3 messageInput formInput" cols="30" name="message" placeholder="Message" required="" rows="4"></textarea><br />
+                    <button form="formSubmit" type="submit" value="Submit" class="btn btn-outline-dark">Submit</button>
+                  </form>
+                </section>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p><span style="text-decoration: underline; color: #0645AD;" title="document.write(new Date().getFullYear())"><script>document.write(new Date().getFullYear())</script></span> Alexander Reyes &copy; All rights reserved</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+    <script src="./assets/bootstrap-5.3.2/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
